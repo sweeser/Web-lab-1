@@ -25,6 +25,9 @@
             border-radius: 8px;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
             text-align: center;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
         }
 
         p {
@@ -38,7 +41,6 @@
             padding: 10px 20px;
             border-radius: 4px;
             cursor: pointer;
-            margin: 10px 10px;
             transition: background-color 0.3s ease;
         }
 
@@ -50,10 +52,12 @@
 
 <body>
     <form>
-        <p>Шемелин Святослав Игоревич</p>
+        <h4 id="author" title="GossJS">Святослав Шемелин</h4>
         <p>Лабораторная работа №1</p>
-        <button><a href="https://sweeser.github.io/Web-lab-1/blob/master/Задание%201/math.xml">Задание №1</a></button>
-        <button><a href="https://sweeser.github.io/Web-lab-1/blob/master/Задание%202/svg.xml">Задание №2</a></button>
+        <button><a href="">Задание №1</a></button>
+        <button><a href="https://sweeser.github.io/Web-lab-1/Task1/math.xml">Ответ к заданию №1</a></button>
+        <button><a href="">Задание №2</a></button>
+        <button><a href="https://sweeser.github.io/Web-lab-1/Task2/svg.xml">Ответ к заданию №2</a></button>
     </form>
     <button><a href="https://github.com/sweeser/Web-lab-1">Ссылка на репозиторий</a></button>
 </body>
